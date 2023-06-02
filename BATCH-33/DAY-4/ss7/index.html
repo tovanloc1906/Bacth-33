@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ss7</title>
+    <style>
+        .angle-editing
+        {
+            width: 200px;
+            height: 160px;   
+            /* text-align: center; */
+                      
+        }
+        .edit-img {
+            width: 100%;
+            height: auto;
+        }
+        .transition-div{
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            /* transition-property: width; */
+            /* transition-duration: 3s; */
+            /* transition-timing-function: ; */
+            /* transition-delay: ; */
+            transition: width linear 0.5s;
+            padding: 1px;
+        }
+        .transition-div:hover{
+            width: 300px;
+            /* height: 200px; */
+        }
+        .animation-div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* chỉnh chữ vào giữa */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* làm hình chạy sang ngang */
+            position: relative;
+            
+            animation-name: div_animation;
+            animation-duration: 3.5s;
+            animation-timing-function: ease-out;
+            animation-delay: 0s;
+
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-play-state: none;
+            animation-fill-mode: running;
+        }
+         @keyframes div_animation {
+            0%{
+                background-color: red;
+                left: 0%;
+            }
+            50%{
+                background-color: blue;
+                border-radius: 100px;
+                left: 50%;
+            }
+            100%{
+                background-color: yellow;
+                left: 0%;
+            }
+         }
+    </style>
+</head>
+<body>
+    <p><strong></strong></p>
+    <!-- figure, figcaption: ghi chú cho hình -->
+    <!-- phần này là Transition -->
+    <h1><center>SS7</center></h1>
+    <p><strong>transition: linear</strong> (hiệu ứng tốc độ từ từ <strong>transition-duration</strong> )</p>
+    <p><strong>transition-duration:</strong> (thời gian thực hiện cái đó)</p>
+    <p><strong>transition-delay: </strong> (độ trễ của nó)</p>
+    <p><strong>transition-timing-function: ;</strong> (hiệu ứng thực hiện)</p>
+    <p><strong>transition-property: </strong>(trường hợp muốn gán vào 1 cái đã có thẻ muốn thay đổi chiều rộng,cao thì gán tên biến đó vào)</p>
+    <p><strong>tổng các loại thay đổi hiệu ứng khi hover transition</strong> (linear, ease, ease in, ease out, ease-in-out)</p>
+    <div style="text-align: center;">
+        <figure>
+            <img class="angle-editing" src="QCOM-Apple-iPhone-ban-in-China-MSN.jpg" alt="iphone chính hãng">
+            <figcaption style="text-align: center;" >sản phẩm quần gì đó</figcaption> 
+        </figure>    
+            
+    </div>
+    </div>
+            <img class="edit-img" src="https://msmobile.com.vn/upload_images/images/hinh-nen-dep-cho-may-tinh-7.jpg" alt="">
+        </div>
+        <div class="transition-div">
+            <p>transition</p>
+        </div>
+        <h2 class="h2">hover chậm lại</h2>
+        <div class="animation-div">
+            <p>Lộc</p>
+        </div>
+        <!-- phần này là Animation --> 
+        <!--
+            (animation-name:;) nhập tên ở key frames
+        animation-name:;  
+           (animation-duration:;) thời gian thực hiện
+        animation-duration:;
+            (animation-timing-function:;) gán vào các kiểu linear,ease,ease in, ease out,ease-in-out
+        animation-timing-function:;
+            (animation-delay:;) deley khi vào nó chạy
+        animation-delay:;
+            (animation-direction:;)  gán giá trị alternate chạy tới chạy lui rồi lui rồi tới lặp lại
+        animation-direction:;
+            (animation-iteration-count:;) gán giá trị infinite lặp lại vô hạn
+        animation-iteration-count:;
+            (animation-play-state:;)  gán giá trị none
+        animation-play-state:;
+            (animation-fill-mode:;)  gán giá trị running
+        animation-fill-mode:;
+    
+        <div class="animation-div">
+            <p>Lộc</p>
+        </div>
+</body>
+</html>

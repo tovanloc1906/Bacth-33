@@ -1,0 +1,32 @@
+/* reset mặc định của trình duyệt */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.session-six
+{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    text-decoration:underline;
+    word-spacing: 20px;
+}
+p {
+    text-indent: 30px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+#main-heading {
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+body {
+    font-family: 'Source', Helvetica, sans-serif;
+}
+.font-style{
+    font-size: 30px;
+    font-style: italic;
+}

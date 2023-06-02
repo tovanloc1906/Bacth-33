@@ -1,0 +1,163 @@
+nav>ul{
+    display: flex;
+    list-style: none;
+    /* colum-gap tác dụng làm khoảng cách giữa các chữ hàng ngang */
+    column-gap: 10px;
+    background-color: #08c;
+}
+nav>ul>li{
+    height: 45px;
+    position: relative;
+}
+nav>ul>li>a {
+    color: #fff;
+    /* cursor: pointer công dụng khi ria chuột vào hiện bàn tay */
+    cursor: pointer;
+    line-height: 45px;
+    padding: 0px 10px;
+}
+nav>ul>li:hover{
+    background-color: rgb(0, 121, 181);
+}
+.samsung
+{
+    display: none;
+    position:absolute;
+    top: 45px;
+    left: 0px;
+    background-color: #fff;
+    /* box-shadow tạo bóng */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    min-width: 140px;
+}
+nav>ul>li:hover .samsung
+/* display để nó hiện lên lại trong thanh công cụ */
+{
+    display: block;
+}
+nav>ul>li:hover .samsung a:hover
+{
+    color: #08c;
+}
+nav>ul>li:hover .samsung a{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    transition-duration: 0.3s;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+    /* colum-gap tác dụng làm khoảng cách giữa các chữ hàng ngang */
+    column-gap: 10px;
+    background-color: #08c;
+}
+nav>ul>li{
+    height: 45px;
+    position: relative;
+}
+nav>ul>li>a {
+    color: #fff;
+    /* cursor: pointer công dụng khi ria chuột vào hiện bàn tay */
+    cursor: pointer;
+    line-height: 45px;
+    padding: 0px 10px;
+}
+nav>ul>li:hover{
+    background-color: rgb(0, 121, 181);
+}
+.iphone
+{
+    display: none;
+    position:absolute;
+    top: 45px;
+    left: 0px;
+    background-color: #fff;
+    /* box-shadow tạo bóng */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    min-width: 75px;
+}
+nav>ul>li:hover .iphone
+/* display để nó hiện lên lại trong thanh công cụ */
+{
+    display: block;
+}
+nav>ul>li:hover .iphone a:hover
+{
+    color: #08c;
+}
+nav>ul>li:hover .iphone a{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    transition-duration: 0.3s;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+    /* colum-gap tác dụng làm khoảng cách giữa các chữ hàng ngang */
+    column-gap: 10px;
+    background-color: #08c;
+}
+nav>ul>li{
+    height: 45px;
+    position: relative;
+}
+nav>ul>li>a {
+    color: #fff;
+    /* cursor: pointer công dụng khi ria chuột vào hiện bàn tay */
+    cursor: pointer;
+    line-height: 45px;
+    padding: 0px 10px;
+}
+nav>ul>li:hover{
+    background-color: rgb(0, 121, 181);
+}
+.oppo
+{
+    display: none;
+    position:absolute;
+    top: 45px;
+    left: 0px;
+    background-color: #fff;
+    /* box-shadow tạo bóng */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    min-width: 65px;
+}
+nav>ul>li:hover .oppo
+/* display để nó hiện lên lại trong thanh công cụ */
+{
+    display: block;
+}
+nav>ul>li:hover .oppo a:hover
+{
+    color: #08c;
+}
+nav>ul>li:hover .oppo a{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    transition-duration: 0.3s;
+}
+.img {
+    position: fixed;
+    z-index: 1;
+    right: 43px;
+    bottom: 30px;
+    
+}
+.img1 {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 90px;
+    
+}

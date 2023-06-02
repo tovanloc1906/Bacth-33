@@ -1,0 +1,16 @@
+strong {
+    color: red;
+}
+/* trường hợp xếp nó vào 1 hàng bằng tranisiton cũng được */
+.h2
+{
+    /* transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear; */
+    transition: color 0.3s linear; 
+    text-transform: capitalize;
+}
+.h2:hover
+    {
+        color: red;
+    }
